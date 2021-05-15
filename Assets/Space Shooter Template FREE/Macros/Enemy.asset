@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":86.69185,"y":-52.10707},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-400.0,"y":-106.0},"guid":"ab1e3940-1ad8-4e2c-bf38-2a782db516b1","$version":"A","$type":"Bolt.Update","$id":"9"},{"chainable":false,"member":{"name":"Translate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%translation":{"x":0.0,"y":-0.02,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-169.0,"y":-103.0},"guid":"0134c082-0266-4bf2-bc31-e3de31a8ee71","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"dba0f4e1-d69a-4434-a736-5b7b20043cd0","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
